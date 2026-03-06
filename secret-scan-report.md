@@ -1,6 +1,6 @@
 Secret Scan Security Report
 
-Date: 2026-03-06 01:34:08
+Date: 2026-03-06 01:35:54
 Scanner: Trivy FS (Secret Scanner)
 
 1. Executive Summary
@@ -19,6 +19,7 @@ Overall Result: Pass
 | Severity | File Path | Secret Type | Action Taken | Env Key |
 |----------|-----------|-------------|--------------|---------|
 | High | trivysceurity.ts | Google API Key | Removed hardcoded key; moved to .env; refactored to use process.env | GEMINI_API_KEY |
+| High | trivysecurity.ts | Google API Key | Removed hardcoded key; moved to .env; refactored to use process.env | GEMINI_API_KEY |
 
 3. Workflow Checklist
 
